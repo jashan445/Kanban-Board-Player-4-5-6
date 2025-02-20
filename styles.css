@@ -84,6 +84,11 @@ h3 {
     color: white;
 }
 
+.dark-mode .task{
+    background: #f1f1f1;
+    color: #121212;
+}
+
 /* Buttons */
 button {
     background: #2575fc;
