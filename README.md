@@ -44,7 +44,9 @@ No server required! Simply open the `index.html` file in **Google Chrome, Firefo
 6️⃣ **Drag tasks to the 🗑 red delete bin** to remove them.  
 
 ---
+## 🎨 **Screenshots**
 
+---
 ## 🎯 **Future Improvements**
 🔹 AI-powered automatic task categorization  
 🔹 Real-time collaboration using WebSockets  
