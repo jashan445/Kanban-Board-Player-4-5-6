@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Kanban Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI-Powered Kanban Board</h1>
+        <button id="dark-mode-toggle">🌙 Toggle Dark Mode</button>
+        <button id="suggest-task">✨ AI Suggest Task</button>
+        <button id="start-voice">🎤 Voice Command</button>
+
+        <div class="board">
+            <div class="column" id="backlog" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>Backlog (<span id="count-backlog">0</span>)</h3>
+            </div>
+            <div class="column" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>To Do (<span id="count-todo">0</span>)</h3>
+            </div>
+            <div class="column" id="in-progress" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>In Progress (<span id="count-in-progress">0</span>)</h3>
+            </div>
+            <div class="column" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3>Done (<span id="count-done">0</span>)</h3>
+            </div>
+        </div>
+
+        <div class="add-task">
+            <input type="text" id="new-task-input" placeholder="Add a new task...">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <div id="delete-bin" ondrop="deleteTask(event)" ondragover="allowDrop(event)">🗑</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
