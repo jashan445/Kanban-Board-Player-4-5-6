@@ -45,7 +45,8 @@ No server required! Simply open the `index.html` file in **Google Chrome, Firefo
 
 ---
 ## 🎨 **Screenshots**
-
+![Image](https://github.com/user-attachments/assets/d8076fee-fd06-44b9-bee5-63e86a39ee7d)
+![Image](https://github.com/user-attachments/assets/24902231-6489-4fe8-93ad-89b86b8a95e5)
 ---
 ## 🎯 **Future Improvements**
 🔹 AI-powered automatic task categorization  
